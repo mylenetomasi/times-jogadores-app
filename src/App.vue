@@ -1,11 +1,11 @@
 <template>
   <header>
     <div class="menu-esquerdo">
-      <span>Home</span>
+      <span> <RouterLink to="/"> Home </RouterLink> </span>
       <span>|</span>
-      <span>Jogadores</span>
+      <span> <RouterLink to="/"> Jogadores </RouterLink> </span>
       <span>|</span>
-      <span>Times</span>
+      <span> <RouterLink to="/"> Times </RouterLink> </span>
     </div>
     <div class="menu-direito">
       <span>Sair</span>
@@ -42,5 +42,9 @@ main {
 }
 header span {
   padding: 0 10px;
+}
+a {
+  color: inherit;
+  text-decoration: none;
 }
 </style>
