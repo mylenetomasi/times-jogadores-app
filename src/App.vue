@@ -1,7 +1,5 @@
 <template>
-  <header>Home | Jogadores | Times</header>
-  <main>Main</main>
-  <footer>Rodapé</footer>
+  <RouterView />
 </template>
 
 <style>
@@ -28,5 +26,8 @@ footer {
 
 main {
   height: 70%;
+}
+header span {
+  padding: 0 10px;
 }
 </style>

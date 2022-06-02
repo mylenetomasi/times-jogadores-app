@@ -6,6 +6,6 @@
     <span>|</span>
     <span>Times</span>
   </header>
-  <main>Main</main>
+  <main>Times</main>
   <footer>Rodapé</footer>
 </template>

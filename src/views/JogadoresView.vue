@@ -6,6 +6,6 @@
     <span>|</span>
     <span>Times</span>
   </header>
-  <main>Main</main>
+  <main>Jogadores</main>
   <footer>Rodapé</footer>
 </template>
